@@ -23,7 +23,7 @@ end
 
 
 local function isKeyValid(k)
-    local url = "https://raw.githubusercontent.com/WataXScript/WataXMountAtin/main/Loader/eldl/"..k
+    local url = "https://raw.githubusercontent.com/WataXScript/WataXMountDaun/main/Loader/eldl/"..k
     local success, data = pcall(function()
         return game:HttpGet(url)
     end)
